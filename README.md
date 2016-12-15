@@ -21,6 +21,8 @@ Include it in your HTML after you include showdown.js.
 <script src="showdown-toc.js"></script>
 ```
 
+Initialize the converter with option `{ extensions: ['showdown-toc'] }`.
+
 Then in your markdown just put a `[toc]` where you want a Table of Contents to appear. This
 extension will look for the first header after the [toc] and use whatever it finds first as the
 element for the rest of the TOC.
