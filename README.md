@@ -27,8 +27,7 @@ Then in your markdown just put a `[toc]` where you want a Table of Contents to a
 extension will look for the first header after the [toc] and use whatever it finds first as the
 element for the rest of the TOC.
 
-You can have multiple `[toc]` in a file, each one will show a Table of Contents for headers after it
-(and before the next [toc]).
+You can have multiple `[toc]` in a file, each one will show a Table of Contents for headers after it.
 
 If you move up a level from the headers being used for a [toc], the Table of Contents will stop (the
 assumption being you're "outside" of that section).
